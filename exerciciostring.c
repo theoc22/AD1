@@ -94,6 +94,13 @@ do{
 
 }while(opcao != 4);
 
+   Nome* atual = cabeca;
+    while (atual != NULL) {
+        Nome* temp = atual;
+        atual = atual->prox;
+        free(temp);
+    }
+
   return 0;
 
 }
