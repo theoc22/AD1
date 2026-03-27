@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/theoc/C/AD1/debugger'
+relocations:     []
+...
