@@ -1,7 +1,7 @@
 #include <stdbool.h>
 
 bool isPalindrome(int x) {
-  int reverse = 0;
+  long reverse = 0;
   int original = x; // guarda o valor original para comparar
 
   if ( x < 0 ){
@@ -16,7 +16,7 @@ bool isPalindrome(int x) {
 
   //comparo com o original. pois x agr é 0
 
-  if ( reverse == original){
+  if ( reverse == original ){
     return true;
   } else {
     return false;
