@@ -20,4 +20,8 @@ int minElement(int* nums, int numsSize) {
 
     return menor;
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3643244f7e51ebc918cb21671945316756d2c0c4
